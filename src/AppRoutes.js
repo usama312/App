@@ -2,7 +2,8 @@ import React from 'react';
 import App from './App';
 import Home from './Home';
 import Category from './Category';
-import { Switch, Route } from 'react-router-dom';
+//import NewHome from './NewHome';
+import { Switch, Route, Link } from 'react-router-dom';
 
 const AppRoutes = (props) => {
   console.log('AppRoute ', props);
